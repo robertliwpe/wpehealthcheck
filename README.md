@@ -1,6 +1,6 @@
 # Health Checker for WP Engine Installs
 
-***Note: This will only work with WP Engine Installs***
+***Note: This will ONLY work with WP Engine Installs***
 
 Ensure that SSH Gateway access has been properly configured for your WP Engine Account
 
