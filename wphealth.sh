@@ -24,7 +24,7 @@ printf "\r\nServer Info\r\n"
 
 wp healthcheck server
 
-printf "\r\nWP Filesystem Size\r\n"
+printf "\r\nWP Filesystem Size Larger than 1MB\r\n"
 
 printf "Size\tLast Modified\t\tFile/Folder\r\n" | column  && du --time -Scha -d 2 -t 1000000 | sort -rh | column  | ack --passthru "total"
 
